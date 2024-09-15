@@ -12,12 +12,23 @@ Prompt Engineering: Developed a method for structured information extraction usi
 The prototype of the ancient poetry intelligent search system was implemented and tested with typical samples, achieving an accuracy of 75%. This demonstrates that our approach, by integrating the capabilities of large language models, effectively retrieves multi-dimensional structured semantic information from ancient poetry and understands user search intents with good performance.
 
 
+## Project Structure
+
+do_build_data_from_raw.py: This script is responsible for building the raw database from the original poetry dataset.
+do_get_struct_info_from_llm.py: This script extracts the structured information from large language models.
+main_poem.py: This is the main process that integrates the functionalities of the intelligent search system.
+
 
 ## Features
 
 Comprehensive Dataset: Access to 220,000 ancient poetry pieces with detailed structured information.
 Advanced Search Method: Utilizes a two-stage process involving LLMs to enhance search accuracy and intent understanding.
 Effective Information Extraction: Uses sophisticated prompt engineering techniques to extract and query structured data effectively.
+
+
+## Dataset
+
+Please access out dataset at Link: https://pan.baidu.com/s/1p1RIRrHClIxa0U9IBgZ1Rw  Access code: hnsg
 
 ## Contact
 
